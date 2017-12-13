@@ -14,7 +14,7 @@ public static void main(String[] args) {
 		bob.turn(180);
 		bob.move(200);
 		bob.turn(90);
-		bob.move(275);
+		bob.move(387);
 		bob.setAngle(0);
 		for (int i = 0; i < 10; i++) {
 			int h = num.nextInt(3);
@@ -72,24 +72,32 @@ public static void main(String[] args) {
 	else 	if (color.equals("red")) {
 		bob.setPenColor(Color.red);
 	}
+	 if (height.equals("large")) {
+		 bob.move(sml);
+			drawFlatRoof();
+			bob.move(sml);
+			bob.turn(270);
+		bob.setPenColor(Color.green);	
+		bob.move(30);
+	}
+	 else {
 		bob.move(sml);
-		bob.turn(90);
-		bob.move(50);
-		bob.turn(90);
+		drawPointyRoof();
 		bob.move(sml);
 		bob.turn(270);
 	bob.setPenColor(Color.green);	
 	bob.move(30);
 
+	}	
 	}
-void drawPointyRoof() {
+static void drawPointyRoof() {
 bob.turn(45);	
 	bob.move(35);
 	bob.turn(90);
 	bob.move(35);
 	bob.turn(45);
 }
-void drawFlatRoof() {
+static void drawFlatRoof() {
 	bob.turn(90);
 bob.move(50);
 bob.turn(90);
