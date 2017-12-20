@@ -56,7 +56,7 @@ quizWindow.pack();
 		// 13. ask another question
 String ANSWER=JOptionPane.showInputDialog("What is the answer to this riddle?");
 		// 14+ check answer, say if correct or incorrect, etc.
-if (ANSWER.equalsIgnoreCase("the room with lions")) {
+if (ANSWER.equalsIgnoreCase("lions")) {
 JOptionPane.showMessageDialog(null, "CORRECT!!!!!!!!!");
 	System.out.println("CORRECT!!!!!!!!!!!");
 }
