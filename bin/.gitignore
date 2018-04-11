@@ -1,16 +1,6 @@
 /.DS_Store
-/bomb.wav
-/cymbal.wav
-/dog bark.wav
-/drum sound.wav
-/drum.jpg
-/drumkit.jpg
-/horn.wav
-/jack.jpg
-/java.png
-/printer.wav
-/robot.jar
 /BodyPartQuiz.class
+/Checkpoint.class
 /CutenessTV.class
 /DrumKit.class
 /DuelingButtons.class
@@ -23,5 +13,15 @@
 /Practice.class
 /RunFortuneCookie.class
 /SoundEffectsMachine.class
+/bomb.wav
 /creepy-noise.wav
-/Checkpoint.class
+/cymbal.wav
+/dog bark.wav
+/drum sound.wav
+/drum.jpg
+/drumkit.jpg
+/horn.wav
+/jack.jpg
+/java.png
+/printer.wav
+/robot.jar
